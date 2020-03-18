@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
 body {
+    background: black;
 }
 
 article {
@@ -8,10 +11,15 @@ article {
 }
 
 h1 {
-    color:#000;
-
+    font-family: 'Share Tech Mono', monospace;
+    color: #fff;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
 }
 
 h2 {
-    color:#000;
+    font-family: 'Share Tech Mono', monospace;
+    color: #fff;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
 }
