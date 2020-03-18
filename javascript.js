@@ -23,7 +23,7 @@ function nachtMode(){
     var uur = date.getHours();
     var dag = document.getElementById('theme');
     
-    if (uur > 17 || uur < 6){
+    if (uur > 18 || uur < 6){
         dag.classList.add('nacht');
     }else{
         dag.classList.remove('nacht');
