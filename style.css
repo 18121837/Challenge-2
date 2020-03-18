@@ -30,3 +30,10 @@ h2 {
     text-transform: uppercase;
     margin-bottom:0;
 }
+
+/* --- Nacht Modus --- */
+
+.nacht{
+    background-image: url(images/sterren.jpg);
+    transition: 1s;
+}

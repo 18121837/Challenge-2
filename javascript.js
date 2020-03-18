@@ -16,3 +16,20 @@ function klokTijd() {
 }
 
 klokTijd();
+
+//code voor de avond verandering
+function nachtMode(){
+    var date = new Date();
+    var uur = date.getHours();
+    var dag = document.getElementById('theme');
+    
+    if (uur > 17 || uur < 6){
+        dag.classList.add('nacht');
+    }else{
+        dag.classList.remove('nacht');
+    }
+}
+
+setInterval(nachtMode, 1000)
+
+nachtMode();
