@@ -1,0 +1,17 @@
+body {
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    color:#000;
+
+}
+
+h2 {
+    color:#000;
+}
