@@ -42,13 +42,6 @@ h2 {
 /* --- BreakPoints --- */
 
 @media (min-width: 600px) {
-    article {
-        flex-direction: column;
-        text-align: center;}
-    
-    .punten {
-        display:none;
-    }
 }
 
 @media (min-width: 900px) {
