@@ -73,6 +73,9 @@ h2 {
     h1 {
         font-size:200px;
     }
+    article {
+        margin-bottom:0;
+    }
 }
 
 @media (min-width: 1800px) {
