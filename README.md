@@ -50,4 +50,23 @@ Vervolgens moest ik deze waardes implementeren in de id's die ik heb gemaakt in 
 
 Dat substr(-2) begrijp ik echter niet zo goed, ik hoop dat dit geen probleem is.
 
+Darkmode
 
+```JavaScript
+function nachtMode(){
+    var date = new Date();
+    var uur = date.getHours();
+    var dag = document.getElementById('theme');
+    
+    if (uur > 18 || uur < 6){
+        dag.classList.add('nacht');
+    }else{
+        dag.classList.remove('nacht');
+    }
+}
+
+setInterval(nachtMode, 1000)
+
+nachtMode();
+```
+Hierboven is de code die ik gebruik om een nachtmodus toe te voegen, ik heb een id theme aan de body toegevoegd en deze wordt toegevoegd na het 18:00 in de avond is en om 6 uur sochtends weer terug veranderd. Ik heb een simpel achtergrondje toegevoegd.

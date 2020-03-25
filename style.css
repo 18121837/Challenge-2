@@ -1,25 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
-
 body {
     background: #000;
     background-size: 100%;
 }
 
 article {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .punten {
-        display:none;
+    display: none;
 }
 
 h1 {
     font-family: 'Share Tech Mono', monospace;
     color: #fff;
     color: #daf6ff;
-    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
     font-size: 70px;
 }
 
@@ -27,57 +26,59 @@ h2 {
     font-family: 'Share Tech Mono', monospace;
     color: #fff;
     color: #daf6ff;
-    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
-    font-size:100px;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+    font-size: 100px;
     text-transform: uppercase;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
+
 
 /* --- Nacht Modus --- */
 
-.nacht{
+.nacht {
     background-image: url(images/sterren.jpg);
     transition: 1s;
 }
 
+
 /* --- BreakPoints --- */
 
 @media (min-width: 600px) {
-    article {
-    }
-    h1 {
-    }
+    article {}
+    h1 {}
 }
 
 @media (min-width: 900px) {
-    article {       
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    article {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     .punten {
-        display:block;
+        display: block;
     }
     h2 {
-        font-size:150px
+        font-size: 150px
     }
     h1 {
-        font-size:150px;
+        font-size: 150px;
     }
 }
 
 @media (min-width: 1200px) {
-        h2 {
-        font-size:200px
+    h2 {
+        font-size: 200px
     }
     h1 {
-        font-size:200px;
+        font-size: 200px;
     }
     article {
-        margin-bottom:0;
+        margin-bottom: 0;
     }
 }
 
 @media (min-width: 1800px) {
-    
+    h2 {
+        font-size: 250px;
+    }
 }
